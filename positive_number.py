@@ -3,7 +3,7 @@ n[0]=n[0][1]
 n[-1]=n[-1][0]
 lst=[]
 for num in n:
-    if num=='' or num[0]=='-':
+    if num=='' or num[0]=='-' or num[0]==']' :
         continue
     ele=int(num)
     if ele >= 0:
