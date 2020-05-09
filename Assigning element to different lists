@@ -1,0 +1,25 @@
+n1=list(input().split(','))
+n1[0]=n1[0][1]
+n1[-1]=n1[-1][0]
+lst=[]
+for num in n1:
+    
+    ele=int(num)
+    
+    lst.append(ele)
+print(lst)
+
+n2=list(input().split(','))
+n2[0]=n2[0][1]
+n2[-1]=n2[-1][0]
+lst=[]
+for num in n2:
+    
+    ele=int(num)
+    
+    lst.append(ele)
+print(lst)
+
+n2.append(n1.pop(5))
+print(n1)
+print(n2)
