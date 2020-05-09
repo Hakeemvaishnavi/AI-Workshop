@@ -1,0 +1,11 @@
+n1=list(input().split(','))
+n1[0]=n1[0][1]
+n1[-1]=n1[-1][0]
+lst=[]
+for num in n1:
+    
+    ele=int(num)
+    
+    lst.append(ele)
+print(lst)
+print(n1[3])
