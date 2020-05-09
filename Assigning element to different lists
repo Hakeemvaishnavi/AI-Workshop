@@ -21,5 +21,6 @@ for num in n2:
 print(lst)
 
 n2.append(n1.pop(5))
+n2.append(n1.pop(3))
 print(n1)
 print(n2)
